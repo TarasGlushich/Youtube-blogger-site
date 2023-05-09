@@ -1,0 +1,8 @@
+@import url(commons.css);
+@import url(controls.css);
+@import url(header.css);
+@import url(products.css);
+@import url(footer.css);
+.colortext {
+  color: red;
+}
