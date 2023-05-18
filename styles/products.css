@@ -1,0 +1,12 @@
+.background__photo {
+  max-width: var(--content-container-size);
+  background-image: url(../images/Background1.png);
+  background-size: cover;
+  height: 100vh;
+}
+.banner {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
