@@ -1,13 +1,10 @@
 .page-section {
   padding: 90px 0;
 }
-.container-background {
+.container-background-sub {
   background-image: url(//res2.weblium.site/res/5d84b7ad48299c00263e65a5/5d9b54446feadf00260818d6_optimized_1200.webp);
 }
-.section__inner {
-  display: block;
-  padding: 0 24px;
-}
+
 .grid__inner {
   display: flex;
   flex-wrap: wrap;
@@ -17,7 +14,7 @@
 .grid__item {
   display: flex;
   padding: 0 15px;
-  background: #ffffff;
+  background: var(--background-grid-item);
   flex-direction: column;
   margin-top: 50px;
   line-height: 24px;
@@ -26,12 +23,7 @@
 .grid__item-inner {
   padding: 31px 27px;
 }
-.text-block__tittle {
-  display: block;
-  font-size: 38px;
-  font-weight: 900;
-  padding-bottom: 15px;
-}
+
 .text-block__subtittle {
   display: block;
   margin-top: 15px;
@@ -39,9 +31,7 @@
   margin-block-start: 15px;
   font-weight: 700;
 }
-.text-block {
-  display: block;
-}
+
 .text-caption {
   margin-top: 25px;
   color: rgb(80, 86, 96);

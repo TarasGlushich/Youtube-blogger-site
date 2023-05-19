@@ -10,7 +10,7 @@
   margin: auto;
 }
 :root {
-  --brand-color: red;
+  --brand-color: rgb(244, 40, 65);
   --just-color: white;
   --text-size: 16px;
   --text-line-height: 1.5;
@@ -19,6 +19,7 @@
   --text-font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
   font-family: "Work Sans", sans-serif;
+  --background-grid-item: #ffffff;
 }
 :root {
   --content-container-size: 1200px;
@@ -26,7 +27,7 @@
 
 img {
   display: block;
-  width: 200px;
+  max-width: 302px;
 }
 h2 {
   display: block;
@@ -37,13 +38,16 @@ h2 {
   font-family: "Work Sans", sans-serif;
   font-size: var(--text-tittle-size);
 }
-.background-group-wrapper {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  overflow: hidden;
-  z-index: 0;
-  border-radius: inherit;
+.text-block__tittle {
+  display: block;
+  font-size: 38px;
+  font-weight: 900;
+  padding-bottom: 15px;
+}
+.text-block {
+  display: block;
+}
+.section__inner {
+  display: block;
+  padding: 0 24px;
 }
