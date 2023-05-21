@@ -38,3 +38,11 @@ div.container-background-story {
   letter-spacing: 0.8px;
   line-height: 24px;
 }
+.accordion-content {
+  margin-top: 20px;
+  font-size: var(--text-size);
+  line-height: 24px;
+}
+.font-bold {
+  font-weight: 700;
+}
