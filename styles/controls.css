@@ -1,0 +1,33 @@
+.btn-group {
+  display: flex;
+  justify-content: flex-start;
+  line-height: 24px;
+  margin-top: 35px;
+}
+.btn-group__inner {
+  margin: -10px;
+  line-height: 24px;
+  width: 270px;
+}
+.btn-group__item {
+  display: inline-block;
+  margin: 10px;
+  padding: 21px 40px;
+  width: 250px;
+  background-color: var(--brand-color);
+  color: var(--just-color);
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 14px;
+}
+.button__border {
+  border-bottom-style: solid;
+  border-bottom-width: 0.667px;
+}
+.button__inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

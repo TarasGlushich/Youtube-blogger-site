@@ -1,11 +1,9 @@
-.container-background-collaboration {
-  background-color: var(--just-color);
-}
-.collaboration__content {
+.india__content {
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
 }
-.text-block.collaboration__text {
+.text-block.india__text {
   font-weight: 500;
   font-size: 18px;
   font-family: var(--text-font-family);
@@ -13,11 +11,13 @@
   color: rgb(38, 46, 59);
   letter-spacing: var(--letter-spacing-text);
 }
-.text-body-collaboration {
-  margin-top: 25px;
+.text-body-india {
+  margin-top: 15px;
   color: var(--text-body-color);
   font-size: var(--text-size);
   letter-spacing: var(--letter-spacing-text);
   line-height: 24px;
   font-family: var(--text-font-family);
+  font-size: 16px;
+  letter-spacing: 0.8px;
 }

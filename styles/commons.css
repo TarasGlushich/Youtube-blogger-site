@@ -19,19 +19,17 @@
   --text-font-weight: 400;
   --text-tittle-size: 38px;
   --text-font-family: "Poppins", sans-serif;
+  --letter-spacing-text: 0.8px;
+  --text-body-color: rgb(112, 112, 112);
   --h2--text-color: rgb(38, 46, 59);
   --content-container-size: 1200px;
   --blocks-padding-sides: 24px;
   scroll-behavior: smooth;
   font-family: "Work Sans", sans-serif;
 }
-:root {
-  --content-container-size: 1200px;
-}
-
 img {
   display: block;
-  max-width: 302px;
+  max-width: 320px;
 }
 h2 {
   display: block;
@@ -60,4 +58,11 @@ h2 {
 .section__inner {
   display: block;
   padding: 0 var(--blocks-padding-sides);
+}
+.page-section {
+  padding: 90px 0;
+}
+.section__padding-sides {
+  padding-left: 30px;
+  padding-right: 30px;
 }
